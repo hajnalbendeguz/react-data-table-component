@@ -107,6 +107,7 @@ const TableRow = memo(({
         pointerOnHover={!defaultExpanderDisabled && showPointer}
         dense={dense}
         onClick={handleRowClick}
+        onContextMenu={handleRowClick}
         onDoubleClick={handleRowDoubleClick}
         className="rdt_TableRow"
         extendedRowStyle={extendedRowStyle}
